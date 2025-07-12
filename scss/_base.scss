@@ -152,16 +152,18 @@
   }
 }
 
+//收藏頁的卡片
 .collection-card {
   a {
     color: inherit;
   }
 }
-
+//卡片資訊
 .collection-info {
   width: 100%;
 }
 
+//登入和註冊頁面有logo
 .login-intro {
   background-image: url("../Photo/login.png");
   background-position: center;
@@ -171,6 +173,7 @@
   border-radius: 12px;
 }
 
+//登入和註冊頁面有logo bg
 .login-bg {
   background-image: url("../Photo/login-bg.png");
   background-position: center;
