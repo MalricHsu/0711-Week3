@@ -49,6 +49,13 @@
     color: $neutral-white;
   }
 }
+
+.btn-tab {
+  width: 100%;
+  font-weight: 400;
+  border: 1px solid $neutral-300;
+  background-color: $neutral-white;
+}
 //swiper原點設定
 .swiper-pagination-bullet {
   background-color: $neutral-300;
@@ -68,4 +75,33 @@
       max-width: 100%;
     }
   }
+}
+
+.enroll-login-tab {
+  width: 50%;
+  text-decoration: none;
+  text-align: center;
+  padding: 12px 0;
+  border-bottom: 2px solid $neutral-900;
+}
+.enroll-enroll-tab {
+  width: 50%;
+  text-decoration: none;
+  text-align: center;
+  padding: 12px 0;
+  border-bottom: 2px solid $neutral-300;
+}
+.login-login-tab {
+  width: 50%;
+  text-decoration: none;
+  text-align: center;
+  padding: 12px 0;
+  border-bottom: 2px solid $neutral-300;
+}
+.login-enroll-tab {
+  width: 50%;
+  text-decoration: none;
+  text-align: center;
+  padding: 12px 0;
+  border-bottom: 2px solid $neutral-900;
 }

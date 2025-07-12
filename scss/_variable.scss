@@ -17,9 +17,7 @@ $danger-300: #d74f4f;
 .text-primary {
   color: $neutral-900;
 }
-.bg-primary-200 {
-  background-color: $primary-200;
-}
+
 .text-neutral-500 {
   color: $neutral-500;
 }
@@ -39,4 +37,8 @@ $danger-300: #d74f4f;
 }
 .bg-footer {
   background-color: $neutral-100;
+}
+
+.bg-primary-200 {
+  background-color: $primary-200;
 }

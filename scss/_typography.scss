@@ -66,6 +66,10 @@ body {
   text-align: center;
 }
 
+.text-align-right {
+  text-align: right;
+}
+
 @media screen and (max-width: 768px) {
   .h3-md {
     font-size: 28px;
@@ -81,5 +85,8 @@ body {
   }
   .sm-md {
     font-size: 0.875rem;
+  }
+  .text-align-left-md {
+    text-align: left;
   }
 }
