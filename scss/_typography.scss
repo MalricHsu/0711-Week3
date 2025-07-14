@@ -13,7 +13,9 @@ body {
 .h3,
 .h4,
 .h5,
-.h6 {
+.h6,
+.display-1,
+.display-2 {
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 0.05em;
@@ -42,6 +44,17 @@ body {
 }
 .sm {
   font-size: 0.875rem;
+}
+
+.lg {
+  font-size: 20px;
+}
+
+.display-1 {
+  font-size: 64px;
+}
+.display-2 {
+  font-size: 48px;
 }
 
 //字重設定

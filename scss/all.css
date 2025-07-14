@@ -151,6 +151,10 @@ img {
   color: #212529;
 }
 
+.text-primary-300 {
+  color: #c0fa73;
+}
+
 .text-neutral-500 {
   color: #adb5bd;
 }
@@ -192,7 +196,9 @@ body {
 .h3,
 .h4,
 .h5,
-.h6 {
+.h6,
+.display-1,
+.display-2 {
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 0.05em;
@@ -228,6 +234,18 @@ body {
 
 .sm {
   font-size: 0.875rem;
+}
+
+.lg {
+  font-size: 20px;
+}
+
+.display-1 {
+  font-size: 64px;
+}
+
+.display-2 {
+  font-size: 48px;
 }
 
 .fw-400 {
@@ -517,6 +535,10 @@ body {
   margin-left: 16px;
 }
 
+.ms-6 {
+  margin-left: 24px;
+}
+
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -569,6 +591,10 @@ body {
   margin-right: 1.5rem;
 }
 
+.me-8 {
+  margin-right: 32px;
+}
+
 .me-10 {
   margin-right: 2.5rem;
 }
@@ -585,6 +611,11 @@ body {
 .my-8-1 {
   margin-top: 33.5px;
   margin-bottom: 33.5px;
+}
+
+.my-12 {
+  margin-top: 48px;
+  margin-bottom: 48px;
 }
 
 @media screen and (max-width: 768px) {
@@ -711,6 +742,31 @@ body {
   height: 120px;
 }
 
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.position-fixed {
+  position: fixed;
+}
+
+.z-3 {
+  z-index: 3;
+}
+
+.hot-goods {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 8px 12px;
+  color: #57a203;
+  background-color: #f5fee7;
+}
+
 .breadcrumb-item + .breadcrumb-item::before {
   content: "/";
   padding: 0 12px;
@@ -745,6 +801,11 @@ body {
   cursor: pointer;
   border: none;
   background-color: transparent;
+}
+
+.btn-green {
+  background-color: #c0fa73;
+  min-height: 48px;
 }
 
 .btn-dark {
@@ -816,6 +877,25 @@ body {
   text-align: center;
   padding: 12px 0;
   border-bottom: 2px solid #212529;
+}
+
+.banner {
+  background-image: url("../Photo/banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 289px 0px 288px 200px;
+}
+
+.ad {
+  margin-top: 48px;
+  margin-bottom: 48px;
+  background-image: url("../Photo/banner-co-branded.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .brand-title {

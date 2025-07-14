@@ -1,3 +1,24 @@
+//首頁
+.banner {
+  background-image: url("../Photo/banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 289px 0px 288px 200px;
+}
+
+//廣告
+.ad {
+  margin-top: 48px;
+  margin-bottom: 48px;
+  background-image: url("../Photo/banner-co-branded.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 //品牌故事
 .brand-title {
   .eng-title {

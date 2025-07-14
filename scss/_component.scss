@@ -37,6 +37,11 @@
   background-color: transparent;
 }
 
+.btn-green {
+  background-color: $primary-300;
+  min-height: 48px;
+}
+
 .btn-dark {
   background-color: $neutral-900;
   color: $neutral-white;
