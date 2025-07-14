@@ -415,10 +415,6 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .container {
-    padding-left: 6px;
-    padding-right: 6px;
-  }
   .row {
     margin-left: -6px;
     margin-right: -6px;
